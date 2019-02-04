@@ -1,7 +1,5 @@
 (() => {
-
-	// Variables always come first 
-	// set up the puzzle pieces and boards
+	// Set up button variables
 	const buttons = ["cUp", "cDown", "cLeft", "cRight", "lTrigger", "rTrigger", "aButton", "bButton"];
 
 	let playField = document.querySelector("#playField"),
@@ -10,9 +8,9 @@
 
 	// Functions go in the middle
 	function createButtons(pictureIndex) {
-		// generate puzzle pieces for the left hand side
+		// generate buttons
 		button.forEach((button, index) => {
-			let newPuzzlePiece = `<img id="piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="thumbnail">`;
+			let newPuzzlePiece = `<img id="button${index}" class="button-image" src="images/${button + pictureIndex}.jpg" alt="thumbnail">`;
 
 			playField.innerHTML += newButton;
 		});
