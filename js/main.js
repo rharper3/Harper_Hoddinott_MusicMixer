@@ -1,5 +1,5 @@
 (() => {
-	// Set up button variables
+	// Set up button variable
 	const buttons = ["cUp", "cDown", "cLeft", "cRight", "lTrigger", "rTrigger", "aButton", "bButton"];
 
 	let playField = document.querySelector("#playField"),
