@@ -2,34 +2,32 @@
 
 	// Variables always come first 
 	// set up the puzzle pieces and boards
-	const pieces = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
+	const buttons = ["cUp", "cDown", "cLeft", "cRight", "lTrigger", "rTrigger", "aButton", "bButton"];
 
-	let piecesBoard = document.querySelector(".puzzle-pieces"),
-		puzzleBoard = document.querySelector(".puzzle-board"),
-		puzzleSelector = document.querySelectorAll("#buttonHolder img");
+	let playField = document.querySelector("#playField"),
+		noteField = document.querySelector("#noteField"),
+		buttonSelector = document.querySelectorAll("#buttonHolder img");
 
 	// Functions go in the middle
-	function createPuzzlePieces(pictureIndex) {
+	function createButtons(pictureIndex) {
 		// generate puzzle pieces for the left hand side
-		pieces.forEach((piece, index) => {
+		button.forEach((button, index) => {
 			let newPuzzlePiece = `<img id="piece${index}" class="puzzle-image" src="images/${piece + pictureIndex}.jpg" alt="thumbnail">`;
 
-			piecesBoard.innerHTML += newPuzzlePiece;
+			playField.innerHTML += newButton;
 		});
-
-		puzzleBoard.style.backgroundImage = `url(./images/backGround${pictureIndex}.jpg)`;
 		
 	}
 
-	function resetPuzzlePieces() {
+	function resetButtons() {
 		// empty the thumbnail container
-		piecesBoard.innerHTML = ""
-		createPuzzlePieces(this.dataset.puzzleref)
+		noteField.innerHTML = ""
+		createButtons(this.dataset.buttonRef)
 	}
 
 	// Event handling down here
-	puzzleSelector.forEach(puzzle => puzzle.addEventListener("click", resetPuzzlePieces));
+	buttonSelector.forEach(button => button.addEventListener("click", resetButtons));
 
-	createPuzzlePieces(0);
+	createButtons(0);
 
 })();
