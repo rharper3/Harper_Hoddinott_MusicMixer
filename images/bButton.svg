@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="bButton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 212" style="enable-background:new 0 0 192 212;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#076031;}
+	.st1{fill:url(#greenOuterCircle_1_);}
+	.st2{fill:url(#lightGreenCircle_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#076031;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#069046;}
+</style>
+<path id="darkGrenHalfCircle" class="st0" d="M0,100v16c0,53.02,42.98,96,96,96s96-42.98,96-96v-16H0z"/>
+<radialGradient id="greenOuterCircle_1_" cx="96" cy="134" r="96" gradientTransform="matrix(1 0 0 -1 0 230)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#35B450"/>
+	<stop  offset="0.95" style="stop-color:#35B450"/>
+	<stop  offset="1" style="stop-color:#076031"/>
+</radialGradient>
+<circle id="greenOuterCircle" class="st1" cx="96" cy="100" r="96"/>
+<radialGradient id="lightGreenCircle_1_" cx="96" cy="134" r="96" gradientTransform="matrix(1 0 0 -1 0 230)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#5ABD78"/>
+	<stop  offset="0.85" style="stop-color:#5ABD78"/>
+	<stop  offset="0.95" style="stop-color:#5ABD78;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#5ABD78;stop-opacity:0"/>
+</radialGradient>
+<circle id="lightGreenCircle" class="st2" cx="96" cy="96" r="96"/>
+<path id="b_x5F_shadow" class="st3" d="M51.91,61.44v80.59c0,0.94,1.06,2,2,2l27.6-0.09c5.36-0.02,11.83-1.64,15.85-8.27
+	c4.02-6.64,2.74-22.55,0-28.67c-1.84-4.1-5.08-6.16-7.03-7.07c-0.96-0.45-0.94-0.86,0.01-1.51c1.27-0.87,3.05-2.49,4.45-5.29
+	c2.44-4.88,2.19-21-0.58-26.11c-2.77-5.11-8.39-7.58-13.87-7.58H53.91C52.96,59.44,51.91,60.5,51.91,61.44L51.91,61.44z
+	 M70.04,71.56c1.45,0,4.71,0.31,6.46,2.33c2.21,2.56,2.56,13.75-0.35,16.2c-2.27,1.91-4.87,2.33-6.11,2.33c-0.33,0-1-0.67-1-1V72.56
+	C69.04,72.23,69.71,71.56,70.04,71.56z M70.39,105.71c1.78,0,5.9,0.63,8.09,3.73c2.8,3.96,3.26,15.73-0.12,18.65
+	c-2.78,2.39-6.54,2.45-7.97,2.45c-0.33,0-1-0.67-1-1l0-22.82C69.39,106.38,70.05,105.71,70.39,105.71z"/>
+<path id="b_x5F_innerColor" class="st4" d="M53.9,63.44c-0.94,0-2,1.06-2,2v76.59c0,0.94,1.06,2,2,2l27.61-0.09
+	c5.36-0.02,11.83-1.64,15.85-8.27c1.59-2.62,2.34-6.71,2.51-11.05c-0.21-5.39-1.18-10.66-2.51-13.62c-1.84-4.1-5.08-6.16-7.03-7.07
+	c-0.47-0.22-0.71-0.44-0.71-0.67c0-0.24,0-3.76,0-4c0-0.24,0.24-0.51,0.72-0.84c1.27-0.87,3.05-2.49,4.45-5.29
+	c0.97-1.93,1.5-5.64,1.63-9.72c-0.16-5.02-0.9-9.95-2.22-12.38c-2.77-5.11-8.39-7.58-13.87-7.58L53.9,63.44z M70.04,71.56
+	c1.45,0,4.71,0.31,6.46,2.33c1.32,1.53,1.97,6.13,1.67,10.11c0.3,4.01-0.27,8.62-2.02,10.09c-2.27,1.91-4.87,2.33-6.11,2.33
+	c-0.33,0-1-0.67-1-1v-4V76.56v-4C69.04,72.23,69.71,71.56,70.04,71.56z M70.39,105.71c1.78,0,5.9,0.63,8.09,3.73
+	c1.68,2.38,2.51,7.58,2.18,11.98c0.32,4.37-0.35,8.99-2.29,10.66c-2.78,2.39-6.54,2.45-7.97,2.45c-0.33,0-1-0.67-1-1v-4v-18.82v-4
+	C69.39,106.38,70.06,105.71,70.39,105.71L70.39,105.71z"/>
+</svg>
