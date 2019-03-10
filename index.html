@@ -1,69 +1,70 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Drop A Note</title>
-<!-- link to reset first -->
-<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
-<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
-
+	<meta charset="UTF-8">
+	<title>Music Mixer</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Srisakdi:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Charm:700" rel="stylesheet">
 </head>
+<body class="theBody">
+	<div class="theContainer">
+		<header class="theHeader">
+			<img src="images/note.png" alt="music note" class="NotePng">
+			<h1 class="siteTitle">Music Mixer</h1>
+			<img src="images/note.png" alt="music note" class="NotePng">
+		</header>
+<div class="notes">
+    <div data-key="1" class="key">
+      <kbd>A</kbd>
+      <span class="sound">1</span>
+    </div>
+    <div data-key="2" class="key">
+      <kbd>S</kbd>
+      <span class="sound">2</span>
+    </div>
+    <div data-key="3" class="key">
+      <kbd>D</kbd>
+      <span class="sound">3</span>
+    </div>
+    <div data-key="4" class="key">
+      <kbd>F</kbd>
+      <span class="sound">4</span>
+    </div>
+    <div data-key="5" class="key">
+      <kbd>G</kbd>
+      <span class="sound">5</span>
+    </div>
+    <div data-key="6" class="key">
+      <kbd>H</kbd>
+      <span class="sound">6</span>
+    </div>
+    <div data-key="7" class="key">
+      <kbd>J</kbd>
+      <span class="sound">7</span>
+    </div>
+    <div data-key="8" class="key">
+      <kbd>K</kbd>
+      <span class="sound">8</span>
+    </div>
+  </div>
 
-	<body> 
-		<h1 id="mainTitle">Drop A Note</h1>
-		<div id="siteCon">
-			<section id="fields">
-				<h1 class="hidden">Play Field</h1>
-				<section>
-				<div id="playField">
-					<img src="">
-				</div>
-				<div id="playField"> 
-					<img src="">
-				</div>
-			</section>
-			</section>
-
-			<section id="buttonHolder">
-					<div id="cUp">
-						<img data-buttonref="0" src="">
-					</div>
-
-					<div id="cDown">
-						<img data-buttonref="1" src="">
-					</div>
-
-					<div id="cLeft">
-						<img data-buttonref="2" src="">
-					</div>
-
-					<div id="cRight">
-						<img data-buttonref="3" src="">
-					</div>
-
-					<div id="lTrigger">
-						<img data-buttonref="4" src="">
-					</div>
-						
-					<div id="rTrigger">
-						<img data-buttonref="5" src="">
-					</div>
-
-					<div id="aButton">
-						<img data-buttonref="6" src="">
-					</div>
-
-					<div id="bButton">
-						<img data-buttonref="7" src="">
-					</div>
-				</section>
+  <audio data-key="1" src=""></audio>
+  <audio data-key="2" src=""></audio>
+  <audio data-key="3" src=""></audio>
+  <audio data-key="4" src=""></audio>
+  <audio data-key="5" src=""></audio>
+  <audio data-key="6" src=""></audio>
+  <audio data-key="7" src=""></audio>
+  <audio data-key="8" src=""></audio>
 			
 
-
-		</div>
-
-
-		<script src="js/main.js"></script>
-	</body>
-
+			<footer class="theFooter">
+				<p>Thanks For Playing!</p>
+					
+			</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
 </html>
