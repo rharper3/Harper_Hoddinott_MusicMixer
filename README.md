@@ -1,8 +1,8 @@
-Drop a Note
+Key Mania
 
-Drop a Note is a drag and drop music mixer
+Press keys on your keyboard to make your very own song! 
 
-Each icon dragged onto the play field will play a different note dus each note dropped will make up a beat and edventually will create a song.
+Each key (ASDFGHJK) plays a different note. By pressing a combination of keys, you can creat music.
 
 Programs Used:
   Sublime Text - HTML, CSS, and JS editing
