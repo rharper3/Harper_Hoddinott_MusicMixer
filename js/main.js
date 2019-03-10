@@ -1,31 +1,18 @@
 (() => {
-	// Set up button variable
-	const buttons = ["cUp", "cDown", "cLeft", "cRight", "lTrigger", "rTrigger", "aButton", "bButton"];
+	console.log("ready");
 
-	let playField = document.querySelector("#playField"),
-		noteField = document.querySelector("#noteField"),
-		buttonSelector = document.querySelectorAll("#buttonHolder img");
+	function playNotes(event) {
+		//debugger;
+		//select the corresponding audio element and make it play
+		let audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
+		// maybe make some new audio to go with the theme
 
-	// Functions go in the middle
-	function createButtons(pictureIndex) {
-		// generate buttons
-		button.forEach((button, index) => {
-			let newPuzzlePiece = `<img id="button${index}" class="button-image" src="images/${button + pictureIndex}.jpg" alt="thumbnail">`;
+		if (!audio) {return; }
 
-			playField.innerHTML += newButton;
-		});
-		
+		//rewind audio on every push of the keys and make it play
+		audio.currentTime = 0;
+		audio.play();
 	}
 
-	function resetButtons() {
-		// empty the thumbnail container
-		noteField.innerHTML = ""
-		createButtons(this.dataset.buttonRef)
-	}
-
-	// Event handling down here
-	buttonSelector.forEach(button => button.addEventListener("click", resetButtons));
-
-	createButtons(0);
-
+	window.addEventListener("keydown", playNotes);
 })();
