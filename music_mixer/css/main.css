@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+h1 {
+	font-family: 'Srisakdi', cursive;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 75px;
+	color: #74aaaa;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.theBody {
+	background-color: #63594b;
+	color: #000;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: agency-fb, sans-serif;
+}
+
+.theHeader {
+	width: 100%;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	background-color: #63594b;
+}
+
+.NotePng
+{
+	height: 150px;
+	width: 150px;
+}
+
+.notes {
+  display: flex;
+  flex: 1;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/trees.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.key {
+  border: 15px solid #afa191;
+  border-radius: 10%;
+  margin: 10px;
+  font-size: 40px;
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  color: #74aaaa;
+  background-color: #63594b;
+  text-shadow: 0 0 10px black;
+  font-family: 'Charm', cursive;
+}
+
+kbd {
+  display: block;
+  font-size: 30px;
+}
+
+.sound {
+  font-size: 15px;
+  flex: 1;
+  color: #52b24d;
+}
+
+
+.theFooter {
+	font-family: 'Srisakdi', cursive;
+	color: #74aaaa;
+	background-color: #63594b;
+	width: 940px;
+	height: 190px;
+	padding: 30px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 100px;
+}
+
+
+.theContainer {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
