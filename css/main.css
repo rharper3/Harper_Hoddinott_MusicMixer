@@ -70,6 +70,7 @@ h1, p {
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 5px;
+	text-align: center;
 }
 
 .iconsRight
@@ -78,6 +79,7 @@ h1, p {
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 5px;
+	text-align: center;
 }
 
 
