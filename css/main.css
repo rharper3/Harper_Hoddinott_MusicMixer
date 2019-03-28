@@ -1,21 +1,27 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
-h1 {
-	font-family: 'Srisakdi', cursive;
-	font-size: 80px;
-	text-align: center;
-	margin-top: 75px;
-	color: #74aaaa;
+h1, p {
+	font-family: talon, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .hidden {
 	display: none;
 }
 
+#theContainer
+{
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	justify-content: center;
+}
 
 .theBody {
-	background-color: #63594b;
+	background-color: black;
 	color: #000;
     font-size: 15px;
     line-height: 15px;
@@ -23,72 +29,89 @@ h1 {
 }
 
 .theHeader {
-	width: 100%;
-	flex-direction: row;
+	height: 300px;
 	display: flex;
-	justify-content: space-between;
-	background-color: #63594b;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin: 0 auto;
 }
 
-.NotePng
+.theHeader h1 {
+	text-align: center;
+	margin-top: 200px;
+	color: #960606;
+	font-size: 250px;
+	margin-bottom: 100px;
+
+}
+
+#howToCon p {
+	text-align: center;
+	color: #960606;
+	font-size: 87px;
+	line-height: 82px
+}
+
+#howToCon {
+	display: flex;
+}
+
+#mainContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+
+.iconsLeft
 {
-	height: 150px;
-	width: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 5px;
 }
 
-.notes {
-  display: flex;
-  flex: 1;
-  height: 600px;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/trees.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+.iconsRight
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 5px;
 }
 
-.key {
-  border: 15px solid #afa191;
-  border-radius: 10%;
-  margin: 10px;
-  font-size: 40px;
-  padding: 15px;
-  flex: 1;
-  text-align: center;
-  color: #74aaaa;
-  background-color: #63594b;
-  text-shadow: 0 0 10px black;
-  font-family: 'Charm', cursive;
+
+.iconContainer {
+	width: 132px;
+	height: 132px;
+	justify-content: center;
+	background-color: #afafaf;
+	margin: 5px;
 }
 
-kbd {
-  display: block;
-  font-size: 30px;
+.iconContainer img
+{
+	width: 120px;
+	height: 120px;
+	
 }
 
-.sound {
-  font-size: 15px;
-  flex: 1;
-  color: #52b24d;
+#bckgrd {
+	width: 792px;
+	height: 576px;
+	margin-top: 10px;
 }
 
 
 .theFooter {
-	font-family: 'Srisakdi', cursive;
-	color: #74aaaa;
-	background-color: #63594b;
-	width: 940px;
-	height: 190px;
-	padding: 30px;
+	font-family: talon, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	text-align: center;
-	font-size: 60px;
-	padding-top: 100px;
-}
+	color: #960606;
+	font-size: 87px;
+	line-height: 82px
+	margin-top: 40px;
 
-
-.theContainer {
-	width: 1000px;
-	height: 100%;
-	margin: 0 auto;
 }
 
