@@ -38,6 +38,12 @@
 			// set the source
 			// load it 
 			// play it
+			
+			let sound = document.createElement("audio");
+				sound.src = newAudioSource;
+
+				sound.load();
+				sound.play();
 		});
 	});
 
