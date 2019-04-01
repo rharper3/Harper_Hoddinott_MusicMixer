@@ -45,6 +45,14 @@ h1, p {
 
 }
 
+.drop-zone {
+	width: 19.05%;
+	border: solid 2px black;
+	height: 25%;
+	margin-top: 180px; 
+
+}
+
 #howToCon p {
 	text-align: center;
 	color: #960606;
@@ -82,7 +90,7 @@ h1, p {
 	text-align: center;
 }
 
-
+x
 .iconContainer {
 	width: 132px;
 	height: 132px;
@@ -99,10 +107,14 @@ h1, p {
 }
 
 #bckgrd {
-	background: url(.../images/container_web.svg);
+	/*background-color: red;*/
+	background: url(../images/container_web.svg);
 	width: 792px;
 	height: 576px;
 	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	padding:
 }
 
 
