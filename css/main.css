@@ -130,3 +130,9 @@ x
 
 }
 
+.drop-zone img {
+	height: 80px !important;
+	padding: 30px!important;
+	cursor: default;                                                              
+}
+
