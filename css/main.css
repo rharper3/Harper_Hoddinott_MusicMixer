@@ -99,6 +99,7 @@ h1, p {
 }
 
 #bckgrd {
+	background: url(.../images/container_web.svg);
 	width: 792px;
 	height: 576px;
 	margin-top: 10px;
