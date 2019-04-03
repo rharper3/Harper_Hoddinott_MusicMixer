@@ -127,6 +127,8 @@ x
 	font-size: 87px;
 	line-height: 82px
 	margin-top: 40px;
+	display: flex;
+	justify-content: center;
 
 }
 
@@ -134,5 +136,32 @@ x
 	height: 80px !important;
 	padding: 30px!important;
 	cursor: default;                                                              
+}
+
+#reset
+{
+	display: flex;
+	margin-bottom: 60px;
+	margin-top: -50px;
+	text-align: center;
+
+}
+
+#reset button
+{
+
+	margin: 0 auto;
+	color: white;
+	background-color: #960606;
+	font-family: talon, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	letter-spacing: 15px;
+	height: 50px;
+	padding: 5px;
+	width: 150px;
+	border-radius: 20px;
+	border: none;
 }
 
