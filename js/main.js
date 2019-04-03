@@ -2,7 +2,8 @@
 	console.log("ready");
 
 	let draggableImages = document.querySelectorAll('#mainContent img'),
-		dropZones = document.querySelectorAll(".drop-zone");
+		dropZones = document.querySelectorAll(".drop-zone"),
+		reset = document.querySelector("#reset button");
 
 
 	// set up the drag events and then dragover and drop
@@ -54,8 +55,11 @@
 		});
 	});
 
+	function resetGame() {
+		document.location.reload();
+	}
 
+	reset.addEventListener("click", resetGame);
 
 	initDrag()
-	
 })();
