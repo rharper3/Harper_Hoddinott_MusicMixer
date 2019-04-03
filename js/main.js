@@ -26,7 +26,14 @@
 		// add drop event handling
 		zone.addEventListener("drop", function(e) {
 			e.preventDefault();
+
 			console.log("you dropped sumpin on me");
+
+			//dont drop if theres aready something here
+
+			if (e.target.nodeName.toLowerCase() == "img" || e.target.children.length > 0) {
+				return;
+			}
 
 			let piece = e.dataTransfer.getData("text/plain");
 			e.target.appendChild(document.querySelector(`#${piece}`));
@@ -46,6 +53,8 @@
 				sound.play();
 		});
 	});
+
+
 
 	initDrag()
 	
